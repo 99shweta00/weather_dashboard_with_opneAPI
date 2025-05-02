@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="search">
+            <input type="text" id="city-input" placeholder="Search for a city" />
+            <button id="search-btn">Search</button>
+            <button id="geo-btn">📍 My Location</button>
+        </section>
+
+        <section id="unit-toggle">
+            <label><input type="radio" name="unit" value="metric" checked /> °C</label>
+            <label><input type="radio" name="unit" value="imperial" /> °F</label>
+        </section>
+
+        <section id="current-weather"></section>
+        <section id="forecast"></section>
+        <aside id="history"></aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

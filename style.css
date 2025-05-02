@@ -1,0 +1,70 @@
+/* Reset some styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+#search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#search input {
+    width: 70%;
+    padding: 8px;
+}
+
+#search button {
+    padding: 8px;
+}
+
+#unit-toggle {
+    margin-bottom: 20px;
+}
+
+#current-weather {
+    margin-bottom: 20px;
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast-card {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 18%;
+}
+
+#history {
+    margin-top: 20px;
+}
+
+.history-btn {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
